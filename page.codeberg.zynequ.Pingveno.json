@@ -30,7 +30,7 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/zynequ/Pingveno.git",
-                    "commit" : "e016556ae58b5bc42905748cb80a79a19185ada4"
+                    "commit" : "7bbbafec2294a729b1c5d6e807265366da231eae"
                 }
             ]
         }
