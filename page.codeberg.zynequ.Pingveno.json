@@ -30,7 +30,11 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/zynequ/Pingveno.git",
-                    "commit" : "e44576ed2aee719bbeebad662bb1488658f9d4b1"
+                    "tag": "1.1.2",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ]
         }
