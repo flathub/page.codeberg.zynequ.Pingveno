@@ -1,16 +1,16 @@
 {
-    "id" : "page.codeberg.zynequ.Pingveno",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "pingveno",
-    "finish-args" : [
-    	"--share=ipc",
+    "id": "page.codeberg.zynequ.Pingveno",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "48",
+    "sdk": "org.gnome.Sdk",
+    "command": "pingveno",
+    "finish-args": [
+        "--share=ipc",
         "--device=dri",
         "--socket=wayland",
         "--socket=fallback-x11"
     ],
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -21,20 +21,21 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
+    "modules": [
         {
-            "name" : "pingveno",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "pingveno",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://codeberg.org/zynequ/Pingveno.git",
+                    "type": "git",
+                    "url": "https://codeberg.org/zynequ/Pingveno.git",
                     "tag": "1.1.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    }
+                    },
+                    "commit": "a6ea446b7554579c93253c55d7e18f6ed6b7cd7f"
                 }
             ]
         }
